@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms - UI Kit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar container">
+            <span class="logo-title">UI Kit</span>
+            <ul class="nav-list">
+                <li><a href="./index.html">Color</a></li>
+                <li><a href="./typography.html">Typography</a></li>
+                <li><a href="./buttons.html">Buttons</a></li>
+                <li><a href="./forms.html">Forms</a></li>
+                <li><a href="./listgroups.html">List Group</a></li>
+                <li><a href="./table.html">Table</a></li>
+                <li><a href="./card.html">Card</a></li>
+            </ul>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Search" class="input-box-search">
+                    <input type="submit" value="Search" class="button-outline-success">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 class="heading">Forms</h1>
+        <hr />
+        <div class="parent-box">
+            <section class="component-section">
+                <h2>Components</h2>
+                <ul>
+                    <li>Color</li>
+                    <li>Typography</li>
+                    <li>Buttons</li>
+                    <li class="selected">Forms</li>
+                    <li>List Group</li>
+                    <li>Table</li>
+                    <li>Card</li>
+                </ul>
+            </section>
+            <section class="input-section">
+                <h2>Input</h2>
+                <input type="text" placeholder="Placeholder">
+                <h2>Select menu</h2>
+                <select>
+                    <option value="None">Select Menu</option>
+                </select>
+                <h2>Textarea</h2>
+                <textarea placeholder="Write your message here"></textarea>
+                <h2>Checkboxes</h2>
+                <div class="parent-box">
+                    <div class="checkboxes">
+                        <h4>Checkboxes</h4>
+                        <input type="checkbox" id="default_checkbox">
+                        <label for="default">Default checkbox</label>
+                        <br />
+                        <input type="checkbox" id="selected_checkbox" checked>
+                        <label for="selected_checkbox">Default checkbox</label>
+                        <br />
+                        <input type="checkbox" id="disable" disabled>
+                        <label for="disable">Default (disabled)</label>
+                    </div>
+                    <div class="inline-checkboxes">
+                        <h4>Checkboxes Inline</h4>
+                        <input type="checkbox" id="default_checkbox">
+                        <label for="default">Default checkbox</label>
+                        <input type="checkbox" id="selected_checkbox" checked>
+                        <label for="selected_checkbox">Selected checkbox</label>
+                        <input type="checkbox" id="disable" disabled>
+                        <label for="disable">Default (disabled)</label>
+                    </div>
+                </div>
+                <h2>Radios</h2>
+                <div class="parent-box">
+                    <div class="radios">
+                        <h4>Radios</h4>
+                        <input type="radio" id="default_radio">
+                        <label for="default">Default Radio</label>
+                        <br />
+                        <input type="radio" id="selected_radio" checked>
+                        <label for="selected_radio">Selected Radio</label>
+                        <br />
+                        <input type="radio" id="disable" disabled>
+                        <label for="disable">Disabled Radio</label>
+                    </div>
+                    <div class="inline-radios">
+                        <h4>Radios Inline</h4>
+                        <input type="radio" id="default_radio">
+                        <label for="default">Default Radio</label>
+                        <input type="radio" id="selected_radio" checked>
+                        <label for="selected_radio">Selected Radio</label>
+                        <input type="radio" id="disable" disabled>
+                        <label for="disable">Disabled Radio</label>
+                    </div>
+                </div>
+                <h2>Validation</h2>
+                <span>Input Success</span>
+                <input type="text" class="input-success">
+                <span>Input Error</span>
+                <input type="text" class="input-error">
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

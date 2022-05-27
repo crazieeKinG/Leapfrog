@@ -1,0 +1,179 @@
+hr{
+    border: none;
+    border-top: 1px solid #ced4da;
+}
+
+.heading{
+    margin: 1rem 0;
+}
+
+.section > .heading{
+    margin-top: 2rem;
+}
+
+.parent-box::after{
+    content: '';
+    clear: both;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.component-section{
+    float: left;
+    width: 32%;
+    margin-top: 2rem;
+    margin-right: 3%;
+}
+
+.component-section > h2{
+    margin-bottom: 2rem;
+}
+
+.component-section > ul{
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+.component-section > ul > li {
+    border: 1px solid #dee2e6;
+    padding: .6rem;
+}
+
+.component-section > ul > .selected{
+    background-color: #7749f8;
+    color: #ffffff;
+}
+
+.component-section > ul > li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.component-section > ul > li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.input-section{
+    float: right;
+    width: 64%;
+    margin-top: 2rem;
+}
+
+.input-section > h2{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.input-section > h2:first-child{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.input-section > span{
+    display: block;
+    font-size: 1rem;
+    margin: 1.5rem 0 .7rem 0;
+}
+
+.input-section > input[type="text"]{
+    width: 40%;
+    height: 1.5rem;
+    padding: .5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: #abb5be;
+}
+
+.input-section > select {
+    width: 43%;
+    height: 2rem;
+    padding: .5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    color: #abb5be;    
+}
+
+.input-section > textarea {
+    width: 40%;
+    height: 5rem;
+    padding: .5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    color: #abb5be;    
+}
+
+.input-section > input.input-success{
+    border-color: #28a745;
+}
+
+.input-section > input.input-error{
+    border-color: #DC3545;
+}
+
+.checkboxes{
+    float: left;
+    width: 30%;
+    font-size: .8rem;
+}
+
+.inline-checkboxes{
+    float: right;
+    width: 70%;
+    font-size: .8rem;
+}
+
+.checkboxes > input[type="checkbox"]{
+    margin: .3rem 0;
+}
+
+.inline-checkboxes > input[type="checkbox"]{
+    margin: .3rem 0;
+}
+
+.checkboxes label[for="disable"]{
+   color: #757575;
+}
+
+.inline-checkboxes label{
+    margin-right: .8rem;
+}
+
+.checkboxes h4{
+    margin-bottom: .5rem;
+}
+
+.radios{
+    float: left;
+    width: 30%;
+    font-size: .8rem;
+}
+
+.inline-radios{
+    float: right;
+    width: 70%;
+    font-size: .8rem;
+}
+
+.radios > input[type="radio"]{
+    margin: .3rem 0;
+}
+
+.inline-radios > input[type="radio"]{
+    margin: .3rem 0;
+}
+
+.radios label[for="disable"]{
+   color: #757575;
+}
+
+.inline-radios label{
+    margin-right: .8rem;
+}
+
+.radios h4{
+    margin-bottom: .5rem;
+}

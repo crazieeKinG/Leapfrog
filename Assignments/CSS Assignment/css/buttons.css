@@ -1,0 +1,94 @@
+hr{
+    border: none;
+    border-top: 1px solid #ced4da;
+}
+
+.heading{
+    margin: 1rem 0;
+}
+
+.section > .heading{
+    margin-top: 2rem;
+}
+
+.button-table{
+    width: 50%;
+    color: #a6aaad;
+    margin-bottom: 3rem;
+}
+
+.button-table tr > td{
+    height: 3rem;
+}
+
+tr > td:first-child{
+    width: 20%;
+}
+
+.primary{
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.primary.default{
+    background-color: #7749f8;
+}
+
+.primary.hover{
+    background-color: #5227cc;
+}
+
+.primary.focus{
+    background-color: #5227cc;
+}
+
+.primary.default-outline{
+    border: 1px solid #936ef9;
+    color: #7749f8;
+    background-color: #ffffff;
+}
+
+.primary.hover-outline{
+    border: 1px solid #936ef9;
+    color: #ffffff;
+    background-color: #7749f8;
+}
+
+.secondary{
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.secondary.default{
+    background-color: #6c757d;
+}
+
+.secondary.hover{
+    background-color: #54595e;
+}
+
+.secondary.focus{
+    background-color: #54595e;
+}
+
+.secondary.default-outline{
+    border: 1px solid #8a9198;
+    color: #8e949b;
+    background-color: #ffffff;
+}
+
+.secondary.hover-outline{
+    border: 1px solid #8a9198;
+    color: #ffffff;
+    background-color: #8e949b;
+}
+
+.container > .section:last-child > .button-table{
+    margin-top: 2rem;
+}
