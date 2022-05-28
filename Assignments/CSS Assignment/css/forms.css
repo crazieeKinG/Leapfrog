@@ -134,10 +134,6 @@ hr{
     margin: .3rem 0;
 }
 
-.checkboxes label[for="disable"]{
-   color: #757575;
-}
-
 .inline-checkboxes label{
     margin-right: .8rem;
 }
@@ -166,14 +162,18 @@ hr{
     margin: .3rem 0;
 }
 
-.radios label[for="disable"]{
-   color: #757575;
-}
-
 .inline-radios label{
     margin-right: .8rem;
 }
 
 .radios h4{
     margin-bottom: .5rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #7749f8;
+}
+
+label[for="disable"]{
+   color: #757575;
 }
