@@ -40,6 +40,10 @@
     font-weight: 600;
 }
 
+.button-group{
+    width: 100%;
+}
+
 .button-group .button{
     margin-right: 0.8rem;
 }
@@ -100,11 +104,16 @@
     margin-top: 4.2rem;
 }
 
+.category-group > div {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
 .category{
-    width: 23%;
+    width: 46%;
     text-align: center;
     float: left;
-    margin: 0 2%;
 }
 
 .category-group .category:first-child{
@@ -140,7 +149,7 @@
     padding: 7.4rem 0;
     margin-top: 4.5rem;
 }
-.article-group > .container > section{
+.article-group > .container > .article-section{
     width: 100%;
     margin-top: 4rem;
 }
@@ -152,20 +161,19 @@
     margin: 0 auto;
 }
 
-section .article{
-    width: 32%;
+.article-section div.article{
     float: left;
-    margin: 0 2%;
+    padding: 0 1rem;
+    width: 33%;
 }
 
-section .article:first-child{
+.article-section div:first-child{
     float: left;
-    margin: 0;
+    width: 66%;
 }
 
-section .article:last-child{
-    float: right;
-    margin: 0;
+.article-section > div:first-child .article{
+    width: 50%;
 }
 
 .article img{
@@ -227,12 +235,20 @@ section .article:last-child{
 
 .footer-body .footer-list{
     float: right;
+    width: 50%;
     margin: 7.2rem 0;
 }
 
-.footer-list div{
+.footer-list div.footer-links{
     float: left;
-    margin-left: 8.9rem;
+}
+
+.footer-list div:first-child{
+    float: left;
+    width: 66%;
+}
+.footer-list > div:first-child .footer-links{
+    width: 50%;
 }
 
 .footer-list ul:first-child{
@@ -307,6 +323,7 @@ section .article:last-child{
         left: 100%;
         text-align: center;
         padding: 20vh 0;
+        z-index: 1;
     }
 
     .navlist > button{
@@ -321,24 +338,44 @@ section .article:last-child{
         margin-bottom: 4.8rem;
     }
 
+    .hero{
+        position: relative;
+    }
+    
     .hero > section{
-        width: 100%;
-        float: right;
-        display: block;
+        width: 50%;
+        float: left;
     }
-
+    
     .hero > section > h1{
-        margin-top: 4.8rem;
-    }
-
-    .hero > img{
         width: 100%;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+    
+    .hero > section > p{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero .button{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero > img{
         float: right;
-        display: block;
+        width: 50%;
     }
 
     .hero > section > p:last-child{
         margin-bottom: 4.8rem;
+    }
+
+    .button-group{
+        position: relative;
+        width: 100%;
+        text-align: center;
     }
 
     .category{
@@ -346,9 +383,12 @@ section .article:last-child{
         margin: 0;
         padding: 0 1rem;
     }
+    
+    .category-group > div{
+        width: 100%;
+    }
 
     .category > p{
-        height: 3rem;
         margin-bottom: 6rem;
     }
     
@@ -362,15 +402,22 @@ section .article:last-child{
         margin-bottom: 7.2rem;
     }
 
-    section .article{
-        width: 50%;
+    .article-section div.article{
         float: left;
-        margin: 0;
         padding: 0 1rem;
+        width: 50%;
+        margin: 0 25%;
     }
-
-    .article:last-child{
-        display: none;
+    
+    .article-section div:first-child{
+        float: left;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    
+    .article-section > div:first-child .article{
+        width: 50%;
+        margin: 0;
     }
     
     .footer-body .footer-content{
@@ -380,18 +427,28 @@ section .article:last-child{
     }
     
     .footer-body .footer-list{
+        width: 100%;
         float: none;
         margin-top: 0;
         margin-bottom: 2.5rem;
         overflow: hidden;
     }
-    
-    .footer-list div{
+        
+    .footer-list div.footer-links{
         float: left;
-        width: 30%;
-        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
         margin-top: 4.8rem;
-        margin-bottom: 2.4rem;
+        width: 33%;
+    }
+    
+    .footer-list > div:first-child{
+        float: left;
+        width: 66%;
+    }
+    
+    .footer-list > div:first-child .footer-links{
+        width: 50%;
     }
 }
 
@@ -447,11 +504,22 @@ section .article:last-child{
 
     .hero > section > h1{
         margin-top: 4.8rem;
+        font-size: 3.6rem;
+    }
+
+    .hero > section > p{
+        font-size: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    .hero .button{
+        font-size: 1.6rem;
     }
 
     .hero > img{
         width: 100%;
         float: right;
+        position: static;
         display: block;
     }
 
@@ -478,7 +546,22 @@ section .article:last-child{
         margin-bottom: 7.2rem;
     }
 
-    section .article{
+    .article-section div.article{
+        float: none;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    
+    .article-section div:first-child{
+        float: none;
+        width: 100%;
+    }
+    
+    .article-section > div:first-child .article{
+        width: 100%;
+    }
+
+    .article-section div.article{
         width: 100%;
         float: none;
         margin: 0;
@@ -488,8 +571,14 @@ section .article:last-child{
         display: block;
     }
 
-    .article:not(:last-child) > .description{
+    .article > .description{
         margin-bottom: 5rem;
+    }
+
+    .article-group > .container > div{
+        width: 100%;
+        text-align: center;
+        margin-top: 2.1rem;
     }
     
     .footer-body .footer-content{
@@ -504,12 +593,16 @@ section .article:last-child{
         margin-bottom: 2.5rem;
         overflow: hidden;
     }
-    
-    .footer-list div{
+
+    .footer-list div.footer-links{
         float: left;
         margin-left: 0;
+        margin-bottom: 0;
         margin-top: 4.8rem;
         width: 50%;
-        height: 160px;
+    }
+
+    .footer-list > div:first-child{
+        width: 100%;
     }
 }
