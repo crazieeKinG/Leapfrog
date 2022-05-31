@@ -1,6 +1,6 @@
 .logo{
     width: 18%;
-    display: block;
+    float: left;
 }
 
 .logo span{
@@ -9,9 +9,11 @@
     font-weight: 600;
 }
 
-.navbar{
-    width: 46%;
-    float: right;
+.navbar-menu{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    display: none;
 }
 
 .navlist{
@@ -21,6 +23,7 @@
 
 .navlist li{
     float: left;
+    list-style-type: none;
     margin-right: 3rem;
 }
 
@@ -76,6 +79,10 @@
     margin-bottom: 2.4rem;
 }
 
+.hero > section > p:last-child{
+    margin-bottom: 0rem;
+}
+
 .hero img{
     width: 48%;
     float: right;
@@ -95,13 +102,18 @@
 
 .category{
     width: 23%;
-    margin-right: 1.5rem;
     text-align: center;
     float: left;
+    margin: 0 2%;
+}
+
+.category-group .category:first-child{
+    margin: 0;
 }
 
 .category-group .category:last-child{
-    margin-right: 0;
+    float: right;
+    margin: 0;
 }
 
 .category > img{
@@ -124,12 +136,12 @@
 }
 
 .article-group{
-    min-width: 1200px;
-    max-width: 1440px;
+    width: 100%;
     padding: 7.4rem 0;
     margin-top: 4.5rem;
 }
 .article-group > .container > section{
+    width: 100%;
     margin-top: 4rem;
 }
 
@@ -143,11 +155,17 @@
 section .article{
     width: 32%;
     float: left;
-    margin-right: 1.5rem;
+    margin: 0 2%;
+}
+
+section .article:first-child{
+    float: left;
+    margin: 0;
 }
 
 section .article:last-child{
-    margin-right: 0;
+    float: right;
+    margin: 0;
 }
 
 .article img{
@@ -187,6 +205,7 @@ section .article:last-child{
 
 .footer-body{
     width: 100%;
+    overflow: hidden;
 }
 
 .footer-body .footer-content{
@@ -211,17 +230,16 @@ section .article:last-child{
     margin: 7.2rem 0;
 }
 
-.footer-list > ul{
-    list-style-type: none;
+.footer-list div{
     float: left;
     margin-left: 8.9rem;
 }
 
-.footer-list > ul:first-child{
+.footer-list ul:first-child{
     margin-left: 0;
 }
 
-.footer-list > ul > h4{
+.footer-list h4{
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 110%;
@@ -229,11 +247,12 @@ section .article:last-child{
     margin-bottom: 2.4rem;
 }
 
-.footer-list > ul > li{
+.footer-list ul > li{
+    list-style-type: none;
     margin-bottom: 1.6rem;
 }
 
-.footer-list > ul > li > a{
+.footer-list ul > li > a{
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 110%;
@@ -256,4 +275,241 @@ section .article:last-child{
     color: rgba(255, 255, 255, 0.8);
     padding-top: 1.9rem;
     padding-bottom: 1.7rem;
+}
+
+/* Tablet View */
+@media screen and (max-width: 1200px){
+    .header{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .navbar-menu{
+        display: block;
+        float: right;
+    }
+
+    .logo{
+        width: 80%;
+    }
+
+    .navlist{
+        float: none;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        text-align: center;
+        padding: 20vh 0;
+    }
+
+    .navlist > button{
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .navlist li{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 4.8rem;
+    }
+
+    .hero > section{
+        width: 100%;
+        float: right;
+        display: block;
+    }
+
+    .hero > section > h1{
+        margin-top: 4.8rem;
+    }
+
+    .hero > img{
+        width: 100%;
+        float: right;
+        display: block;
+    }
+
+    .hero > section > p:last-child{
+        margin-bottom: 4.8rem;
+    }
+
+    .category{
+        width: 50%;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .category > p{
+        height: 3rem;
+        margin-bottom: 6rem;
+    }
+    
+    .article-group{
+        padding-top: 5rem;
+        padding-bottom: 6.6rem;
+    }
+
+    .article-group > .container > p{
+        width: 70%;  
+        margin-bottom: 7.2rem;
+    }
+
+    section .article{
+        width: 50%;
+        float: left;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .article:last-child{
+        display: none;
+    }
+    
+    .footer-body .footer-content{
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .footer-body .footer-list{
+        float: none;
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+        overflow: hidden;
+    }
+    
+    .footer-list div{
+        float: left;
+        width: 30%;
+        margin-left: 0;
+        margin-top: 4.8rem;
+        margin-bottom: 2.4rem;
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width: 576px){
+    .header{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .navbar-menu{
+        display: block;
+        float: right;
+    }
+
+    .logo{
+        width: 80%;
+    }
+
+    .navlist{
+        float: none;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        text-align: center;
+        padding: 20vh 0;
+    }
+
+    .navlist > button{
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .navlist li{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 4.8rem;
+    }
+
+    .hero > section{
+        width: 100%;
+        float: right;
+        display: block;
+    }
+
+    .hero > section > h1{
+        margin-top: 4.8rem;
+    }
+
+    .hero > img{
+        width: 100%;
+        float: right;
+        display: block;
+    }
+
+    .hero > section > p:last-child{
+        margin-bottom: 4.8rem;
+    }
+
+    .category{
+        width: 100%;
+        float: none;
+    }
+
+    .category > p{
+        margin-bottom: 6rem;
+    }
+    
+    .article-group{
+        padding-top: 5rem;
+        padding-bottom: 6.6rem;
+    }
+
+    .article-group > .container > p{
+        width: 100%;  
+        margin-bottom: 7.2rem;
+    }
+
+    section .article{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .article:last-child{
+        display: block;
+    }
+
+    .article:not(:last-child) > .description{
+        margin-bottom: 5rem;
+    }
+    
+    .footer-body .footer-content{
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .footer-body .footer-list{
+        float: none;
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+        overflow: hidden;
+    }
+    
+    .footer-list div{
+        float: left;
+        margin-left: 0;
+        margin-top: 4.8rem;
+        width: 50%;
+        height: 160px;
+    }
 }
