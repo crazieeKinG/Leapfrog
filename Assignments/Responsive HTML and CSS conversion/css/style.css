@@ -288,8 +288,37 @@ section .article:last-child{
         width: 100%;
     }
 
+    .navbar-menu{
+        display: block;
+        float: right;
+    }
+
     .logo{
-        width: 30%;
+        width: 80%;
+    }
+
+    .navlist{
+        float: none;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        text-align: center;
+        padding: 20vh 0;
+    }
+
+    .navlist > button{
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .navlist li{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 4.8rem;
     }
 
     .hero > section{
