@@ -1,0 +1,23 @@
+.header{
+    width: 100%; 
+    padding: 3.2rem 4rem;
+    overflow: hidden;
+}
+
+.footer{
+    width: 100%; 
+    overflow: hidden;
+}
+
+.row{
+    overflow: hidden;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
