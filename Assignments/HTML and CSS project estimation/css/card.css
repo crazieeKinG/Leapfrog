@@ -1,0 +1,172 @@
+.row {
+    overflow: hidden;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.card-header {
+    width: 100%;
+    padding: 1.0625rem 10px;
+}
+
+.profile {
+    float: left;
+    width: 10%;
+    border-radius: 50%;
+    margin-right: .6875rem;
+}
+
+.card-header .btn-success {
+    float: left;
+    padding: .3125rem .625rem;
+    margin-right: 100%;
+    background: #27AE60;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    margin-bottom: .3125rem;
+}
+
+.card-header .content {
+    float: left;
+}
+
+.card-header .heading {
+    color: #000000;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    margin-top: 0;
+    margin-bottom: .3125rem;
+}
+
+.card-header .subheading {
+    color: #828282;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+}
+
+.card-header .menu {
+    float: right;
+    width: 10%;
+    padding: .625rem 0;
+}
+
+.card-body {
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    position: relative;
+}
+
+.card-body img {
+    width: 100%;
+}
+
+.card-body .noheader {
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body>.play {
+    position: absolute;
+    padding: 1.25rem;
+    width: 20%;
+    background-color: #27AE60;
+    border-radius: 50%;
+    top: 80%;
+    left: 40%;
+}
+
+.card-body>.row {
+    margin: .75rem .875rem;
+}
+
+.card-body .heading {
+    float: left;
+    width: 40%;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    margin-top: 1.2rem;
+}
+
+.card-body>.row>.icon {
+    float: left;
+    width: 5%;
+    margin: 0 35%;
+}
+
+.card-body>.row>.icon.labeled{
+    margin: 0;
+    margin-top: 1rem;
+}
+
+span {
+    float: left;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    margin: 1.2rem .875rem 0 .25rem;
+}
+
+.card-body .icon:first-child {
+    float: left;
+    margin: 0 0 0 1.5625rem;
+}
+
+.card-body .icon:last-child {
+    float: right;
+    margin: 0;
+    margin: 0 1.5625rem 0 0;
+}
+
+.card-footer {
+    padding: .5625rem 1.3125rem;
+}
+
+.card-body .profile,
+.card-footer .profile {
+    width: 10%;
+    padding: .625rem 0;
+}
+
+.card-footer .comment {
+    width: 80%;
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    color: #BDBDBD;
+    margin-left: .8125rem;
+    margin-top: .625rem;
+}
+
+::placeholder {
+    color: #BDBDBD;
+}
+
+.card-footer .heading,
+.card-footer .subheading {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    text-align: center;
+}
+
+.card-footer .heading {
+    margin-top: 2.75rem;
+    margin-bottom: .3125rem;
+}
+
+.card-footer .subheading {
+    margin-bottom: 1.75rem;
+}

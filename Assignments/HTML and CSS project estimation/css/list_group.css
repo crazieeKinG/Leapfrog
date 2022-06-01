@@ -1,0 +1,75 @@
+.subheading {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-bottom: 1.9375rem;
+}
+
+.list-group {
+    width: 40%;
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.list-group li {
+    padding: .8125rem 1rem;
+    border: 1px solid #DEE2E6;
+}
+
+.list-group li:first-child {
+    border-radius: 4px 4px 0 0;
+}
+
+.list-group li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+
+.row {
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.list-group .title {
+    float: left;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+}
+
+.list-group .date {
+    float: right;
+    font-weight: 700;
+    font-size: .625rem;
+    line-height: .75rem;
+    padding-top: .3rem;
+}
+
+.list-group span{
+    color: #152536;
+}
+
+.list-group p {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+    color: #152536;
+}
+
+.list-group>li>span {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #ABB5BE;
+}
+
+.active{
+    background-color: #7749F8;
+}
+
+.active span{
+    color: white;
+}
+.active p{
+    color: white;
+}
