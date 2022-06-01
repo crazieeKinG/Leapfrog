@@ -1,0 +1,43 @@
+hr {
+    margin-bottom: 1.5rem;
+}
+
+.tabs {
+    width: 50%;
+}
+
+.tabs ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.tabs li {
+    float: left;
+    padding: .625rem 1.5625rem;
+    border: 1px solid #dee2e6;
+    color: #7b4ff8;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+li.active {
+    color: #6c757d;
+    border-bottom: 1 px solid transparent;
+}
+
+.tabs>ul>li:last-child {
+    width: 20%;
+    border: 2px solid transparent;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.tabs p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #68717a;
+    margin-top: 1.0625rem;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                UI Kit
+            </div>
+
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li>
+                        <a href="./index.html" class="navlinks">Color</a>
+                    </li>
+                    <li>
+                        <a href="./typography.html" class="navlinks">Typography</a>
+                    </li>
+                    <li>
+                        <a href="./buttons.html" class="navlinks">Buttons</a>
+                    </li>
+                    <li>
+                        <a href="./forms.html" class="navlinks">Forms</a>
+                    </li>
+                    <li>
+                        <a href="./list_group.html" class="navlinks">List Group</a>
+                    </li>
+                    <li>
+                        <a href="./table.html" class="navlinks">Table</a>
+                    </li>
+                    <li>
+                        <a href="card.html" class="navlinks">Card</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="searchbar">
+                <form action="">
+                    <input class="textfield" type="text" placeholder="Search">
+                    <input class="btn bg-green-outline" type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="heading">Forms</h1>
+        <hr>
+        <div class="row">
+            <div class="block">
+                <h2 class="subheading">
+                    Components
+                </h2>
+                <ul>
+                    <li>Color</li>
+                    <li>Typography</li>
+                    <li>Buttons</li>
+                    <li class="active">Forms</li>
+                    <li>List Group</li>
+                    <li>Table</li>
+                    <li>Card</li>
+                </ul>
+            </div>
+            <div class="block second">
+                <h2 class="formheading">
+                    Input
+                </h2>
+                <input class="input textfield" type="text" placeholder="Placeholder">
+                <h2 class="formheading">
+                    Select menu
+                </h2>
+                <select class="input selectmenu">
+                    <option value="Select">Select Menu</option>
+                </select>
+                <h2 class="formheading">
+                    Textarea
+                </h2>
+                <textarea class="input textarea" placeholder="Write your message here"></textarea>
+                <h2 class="subheading">Checkboxes</h2>
+                <div class="parent-box">
+                    <div class="inputbutton">
+                        <h4>Checkboxes</h4>
+                        <input type="checkbox" id="default_checkbox">
+                        <label for="default">Default checkbox</label>
+                        <br />
+                        <input type="checkbox" id="selected_checkbox" checked>
+                        <label for="selected_checkbox">Default checkbox</label>
+                        <br />
+                        <input type="checkbox" id="disable" disabled>
+                        <label for="disable">Default (disabled)</label>
+                    </div>
+                    <div class="inline inputbutton">
+                        <h4>Checkboxes Inline</h4>
+                        <input type="checkbox" id="default_checkbox">
+                        <label for="default">Default checkbox</label>
+                        <input type="checkbox" id="selected_checkbox" checked>
+                        <label for="selected_checkbox">Selected checkbox</label>
+                        <input type="checkbox" id="disable" disabled>
+                        <label for="disable">Default (disabled)</label>
+                    </div>
+                </div>
+                <h2 class="subheading">Radios</h2>
+                <div class="parent-box">
+                    <div class="inputbutton">
+                        <h4>Radios</h4>
+                        <input type="radio" id="default_radio">
+                        <label for="default">Default Radio</label>
+                        <br />
+                        <input type="radio" id="selected_radio" checked>
+                        <label for="selected_radio">Selected Radio</label>
+                        <br />
+                        <input type="radio" id="disable" disabled>
+                        <label for="disable">Disabled Radio</label>
+                    </div>
+                    <div class="inline inputbutton">
+                        <h4>Radios Inline</h4>
+                        <input type="radio" id="default_radio">
+                        <label for="default">Default Radio</label>
+                        <input type="radio" id="selected_radio" checked>
+                        <label for="selected_radio">Selected Radio</label>
+                        <input type="radio" id="disable" disabled>
+                        <label for="disable">Disabled Radio</label>
+                    </div>
+                </div>
+                <h2 class="formheading">
+                    Validation
+                </h2>
+                <div>
+                    <label for="success">Input Success</label>
+                    <input class="input textfield success" type="text" id="success">
+                </div>
+                <div>
+                    <label for="error">Input Error</label>
+                    <input class="input textfield error" type="text" id="error">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

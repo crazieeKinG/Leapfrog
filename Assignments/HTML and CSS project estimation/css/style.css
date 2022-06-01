@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: .5rem 3.75rem .5rem 0;
+}
+
+.navbar {
+    float: left; 
+}
+
+.navlist {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navlist li {
+    float: left;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1rem;
+    padding: .7rem 1.1875rem .7rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navlist a {
+    color: #6c757d;
+}
+
+.searchbar {
+    float: right;
+    width: 30%; 
+}
+
+input[type="text"] {
+    padding: .75rem .9375rem;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    font-size: .75rem;
+    line-height: .875rem;
+}
+
+::placeholder {
+    color: #adb7c0;
+}
+
+.searchbar input[type="submit"] {
+    padding: .75rem 1.125rem       ;
+    font-size: .75rem;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #28a745;
+}
+
+.heading{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 2rem;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #ced4da;
+    margin-top: 2rem;
+    margin-bottom: 3.375rem;
+}

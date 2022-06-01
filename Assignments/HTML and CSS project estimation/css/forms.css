@@ -1,0 +1,139 @@
+.row {
+    overflow: hidden;
+}
+
+.block {
+    float: left;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.block.second {
+    width: 70%;
+}
+
+.subheading {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-bottom: 2.1875rem;
+}
+
+.block ul {
+    list-style-type: none;
+    width: 90%;
+}
+
+.block li {
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 1.0625rem;
+    border: 1px solid #DEE2E6;
+    padding: 1rem;
+}
+
+.block>ul>li:first-child {
+    border-radius: 4px 4px 0 0;
+}
+
+.block>ul>li:last-child {
+    border-radius: 0 0 4px 4px;
+}
+
+.active {
+    background-color: #7749F8;
+    color: white;
+}
+
+.formheading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    width: 50%;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    color: #ABB5BE;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: .5625rem 1rem;
+}
+
+.selectmenu {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+}
+
+.textarea {
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+    height: 7.5rem;
+}
+
+::placeholder {
+    color: #ABB5BE;
+}
+
+
+.block.second>div>input {
+    display: block;
+    margin-top: .5rem;
+}
+
+.textfield.success {
+    border: 1px solid #28A745;
+}
+
+.textfield.error {
+    border: 1px solid #DC3545;
+}
+
+.parent-box {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 4.0625rem;
+}
+
+.inputbutton {
+    width: 30%;
+    float: left;
+}
+
+.inline.inputbutton {
+    width: 70%;
+    float: right;
+}
+
+.inputbutton>input[type="checkbox"],
+.inputbutton>input[type="radio"] {
+    accent-color: #7749F8;
+    margin-bottom: 1.125rem;
+}
+
+.inputbutton>label {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: .75rem;
+}
+
+.inline.inputbutton>label:not(:last-child) {
+    margin-right: 1.125rem;
+}
+
+
+.inputbutton>label:last-child {
+    color: #ABB5BE;
+}
+
+.inputbutton>h4 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    margin-bottom: 1.125rem;
+}
