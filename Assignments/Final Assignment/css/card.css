@@ -1,0 +1,102 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 2.5rem .625rem;
+}
+
+.card__icon {
+    margin-right: 1.25rem;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card__header {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    color: #232233;
+}
+
+.card__body {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6C6C72;
+}
+
+
+.card__profile-img {
+    position: relative;
+    margin: 0 auto;
+}
+
+.card__profile-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile__img {
+    padding: .375rem;
+    border-radius: 50%;
+}
+
+.card__heading {
+    font-weight: 700;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    color: #232233;
+    margin-top: 4.125rem;
+}
+
+.card__subheading {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    color: #6C6C72;
+    margin-bottom: .5625rem;
+}
+
+.card__svg {
+    width: 25%;
+    padding: 0;
+    margin-top: 2.5rem
+}
+
+.card__svg:not(:first-child) {
+    border-left: 1px solid #6C6C72;
+}
+
+.card__footer a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 130%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #5851EA;
+    padding: .75rem 0;
+}
+
+.team .card__footer a{
+    padding: .3rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        margin: 20px .3125rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        margin: 20px .1875rem;
+    }
+}

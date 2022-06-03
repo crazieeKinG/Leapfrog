@@ -1,0 +1,38 @@
+.about .container{
+    margin-top: 3.75rem;
+}
+
+.about .card:hover{
+    background-color: #7572FF;
+}
+
+.about .card:hover .card__icon img{
+    content: url("../images/svg/checkbox-hover.svg");
+}
+
+.about .card:hover .card__header,
+.about .card:hover .card__body{
+    color: white;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .about .container{
+        position: relative;
+    }
+
+    .about .subheading{
+        margin-top: 2.5rem;
+    }
+
+    .about__img{
+        position: absolute;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__img{
+        position: static;
+    }
+}

@@ -1,0 +1,53 @@
+.how{
+    margin-top: 10.125rem;
+    position: relative;
+}
+.how .container{
+    padding-top: 5rem;
+    padding-bottom: 13.5rem;
+}
+
+.how .subheading{
+    color: white;
+    margin: 0 auto;
+}
+
+.how .description{
+    color: white;
+    margin-top: 1.4375rem;
+}
+
+.video{
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: 45%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.play{
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: 40%;
+    left: 50%;
+}
+
+.video:hover .play,
+.play:hover{
+    content: url("../images/svg/play_button-hover.svg");
+}
+
+@media screen and (max-width:1200px) {
+    .how{
+        margin-top: 0;
+    }
+
+    .how .container{
+        padding-top: 2.5rem;
+        padding-bottom: 0;
+    }
+
+    .video{
+        position: relative;
+    }
+}

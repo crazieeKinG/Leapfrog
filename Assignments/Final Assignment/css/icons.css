@@ -1,0 +1,24 @@
+.icon--twitter:hover{
+    content: url('../images/svg/twitter-hover.svg');
+}
+
+.icon--facebook:hover{
+    content: url('../images/svg/facebook-hover.svg');
+}
+
+.icon--instagram:hover{
+    content: url('../images/svg/instagram-hover.svg');
+}
+
+.icon--youtube:hover{
+    content: url('../images/svg/youtube-hover.svg');
+}
+
+.icon--mail:hover{
+    content: url('../images/svg/mail-hover.svg');
+}
+
+.icon--contact:hover{
+    content: url('../images/svg/contact-hover.svg');
+}
+

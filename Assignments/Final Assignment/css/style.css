@@ -1,0 +1,23 @@
+.bg__img {
+    background-image: url("../images/png/Background_Image.png");
+    object-fit: fill;
+}
+
+.subheading {
+    font-weight: 700;
+    font-size: 31.1.5625rem;
+    line-height: 2.9375rem;
+    text-transform: uppercase;
+    color: #232233;
+    margin: 0 auto;
+    margin-top: 7.5rem;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6C6C72;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

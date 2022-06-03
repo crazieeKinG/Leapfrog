@@ -1,0 +1,15 @@
+.team .subheading{
+    margin-top: 17.6875rem !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .team .subheading{
+        margin-top: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .team .container{
+        padding: 0 .625rem;
+    }
+}

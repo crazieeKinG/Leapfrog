@@ -1,0 +1,39 @@
+.blog .card{
+    padding: 0;
+}
+
+.blog .card__footer,
+.blog .card__body{
+    padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.blog .card__heading{
+    margin-top: 2.5rem;
+    font-size: 1.125rem !important;
+}
+
+
+.blog .card__footer a:hover{
+    background-color: #5851EA;
+    color: white;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:1200px) {
+    .blog .subheading{
+        margin-top: 3.75rem !important;
+    }
+
+    .blog .card__heading{
+        margin-top: 1.25rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .blog .container{
+        padding: 0 .625rem;
+    }
+}

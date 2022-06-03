@@ -1,0 +1,107 @@
+.review {
+    margin-top: 10.125rem;
+    position: relative;
+}
+
+.review .container {
+    padding-top: 5rem;
+    padding-bottom: 7.375rem;
+}
+
+.review .subheading {
+    color: white;
+    margin: 0 auto;
+}
+
+.review .description {
+    color: white;
+    margin-top: 1.4375rem;
+}
+
+.review .card {
+    margin: 0 auto;
+    margin-top: 3.75rem;
+}
+
+.review .card__heading {
+    margin-top: 1.25rem;
+}
+
+.review .card__subheading {
+    color: #232233;
+}
+
+.review .carsouel__slider {
+    margin-top: 60px;
+}
+
+.slider__img {
+    padding: .125rem;
+}
+
+.slider__img.active {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.slider__img:hover{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.review .card__group {
+    position: relative;
+}
+
+.review .card.active {
+    width: 60%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: -1rem;
+    left: 50%;
+    padding: 3rem 0;
+    z-index: 2;
+}
+
+.not--active .card {
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .review {
+        margin-top: 0;
+    }
+
+    .review .container {
+        padding-top: 2.5rem;
+        padding-bottom: .9375rem;
+    }
+
+    .review .card.active {
+        width: 80%;
+        top: -3rem;
+    }
+
+    .not--active .card {
+        width: 50%;
+    }
+
+    .not--active .card__profile-img {
+        display: none;
+    }
+
+    .review .carsouel__slider {
+        margin-top: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .review .card.active {
+        width: 80%;
+        top: -1.5rem;
+    } 
+    
+    .review .carsouel__slider {
+        margin-top: 3rem;
+    }
+}

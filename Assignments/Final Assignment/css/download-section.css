@@ -1,0 +1,60 @@
+.content{
+    margin-top: 2.5rem;
+    margin-bottom: 3.0625rem;
+}
+
+.download .description{
+    margin-bottom: 2.5rem;
+}
+
+.download .btn__group{
+    margin-top: 3.375rem;
+}
+
+.download .content > .download__img{
+    margin-top: 7.5rem !important;
+}
+
+@media screen and (max-width:1200px) {
+    .content{
+        margin-top: 2.5rem;
+        margin-bottom: 3.0625rem;
+    }
+
+    .download .subheading{
+        margin-top: 2.5rem;
+    }
+    
+    .download .container{
+        position: relative;
+    }
+    
+    .download .description{
+        margin-left: 0;
+    }
+    
+    .download .content:first-child{
+        position: absolute;
+        right: 0;
+        top: -5%;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .content {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .download .content > .download__img {
+        margin-top: 0 !important;
+    }
+
+    .download .content:first-child{
+        position: static;
+    }
+
+    .download__link>a{
+        margin: 0 40%;
+    }
+}
