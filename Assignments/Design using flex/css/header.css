@@ -1,0 +1,58 @@
+.header {
+    background-color: #FFF2E1;
+    border-bottom-left-radius: 150%20rem;
+    border-bottom-right-radius: 150%20rem;
+    overflow: hidden;
+}
+
+.hero__section .hero__img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hero__content {
+    margin-bottom: 10rem;
+}
+
+.hero__content .heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.375rem;
+    line-height: 5.0625rem;
+    color: #2F327D;
+}
+
+.hero__content .description {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #464646;
+}
+
+.hero__section .links {
+    margin-left: 2rem;
+}
+
+.companies {
+    margin-top: 6.25rem !important;
+}
+
+.companies h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #696984;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:1200px) {
+    .hero__content {
+        margin: 0;
+    }
+}

@@ -1,0 +1,29 @@
+.cloud .card__group{
+    margin-top: 10rem;
+}
+
+.cloud .card{
+    position: relative;
+}
+
+.floating__img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 50%;
+}
+
+@media screen and (max-width:1200px) {
+    .floating__img{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 5%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .cloud .card:not(:first-child){
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,39 @@
+.text--center{
+    text-align: center;
+}
+
+.text--left{
+    text-align: left;
+}
+
+.text--primary{
+    color: #F48C06 !important;
+}
+
+@media screen and (max-width:1200px){
+    .tab__text--center{
+        text-align: center;
+    }
+    
+    .tab__text--left{
+        text-align: left;
+    }
+    
+    .tab__text--primary{
+        color: #F48C06 !important;
+    }
+}
+
+@media screen and (max-width:576px){
+    .mob__text--center{
+        text-align: center;
+    }
+    
+    .mob__text--left{
+        text-align: left;
+    }
+    
+    .mob__text--primary{
+        color: #F48C06 !important;
+    }
+}

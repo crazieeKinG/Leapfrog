@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skilline</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/layout-responsive.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/text-style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/cloud.css">
+    <link rel="stylesheet" href="./css/skilline.css">
+    <link rel="stylesheet" href="./css/testomonial.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <nav class="navbar row space--between w--100 vertical--center">
+                <a href="#" title="Logo of Skilline">
+                    <img src="./images/png/logo.png" alt="Logo">
+                </a>
+                <input type="checkbox" name="nav-menu" id="nav-menu">
+                <label for="nav-menu" title="Menu">
+                    <img class="navbar__menu logo" src="./images/svg/hamburger.svg" alt="Logo">
+                </label>
+                <ul class="nav__links tab__column row w__mob--60 w__tab--60 w--80 text--center">
+                    <li><a href="#" class="nav-item" title="Go to home page">Home</a></li>
+                    <li><a href="#" class="nav-item" title="Go to career page">Careers</a></li>
+                    <li><a href="#" class="nav-item" title="Go to blog page">Blog</a></li>
+                    <li><a href="#" class="nav-item" title="Go to about us page">About Us</a></li>
+                    <li><a href="#" class="nav-item btn btn--white" title="Go to login page">Login</a></li>
+                    <li><a href="#" class="nav-item btn btn--primary" title="Go to sign up page">Sign Up </a></li>
+                </ul>
+            </nav>
+            <div class="hero__section tab__column row space--between">
+                <div class="column hero__content w__mob--100 w__tab--100 w--60 text--left">
+                    <h1 class="heading w__mob--100 w__tab--80">
+                        <span class="heading text--primary">Studying</span> Online is now much easier
+                    </h1>
+                    <p class="description w__mob--100 w__tab--80">
+                        Skilline is an interesting platform that will teach you in more an interactive way
+                    </p>
+                    <div class="mob__column row w--100 space--between mt__mob--3 mt__tab--3">
+                        <div class="vertical--center w__mob--100 w--40">
+                            <a href="#" class="btn btn--primary" title="Join/Sign up at Skilline now">Join for free</a>
+                        </div>
+                        <div class="mob__row row w__mob--100 w--60 vertical--center mt__mob--3">
+                            <a href="#" class="btn btn--play" title="Go to tutorial video">
+                            </a>
+                            <a class="links" href="#" title="Go to tutorial video">Watch how it
+                                works</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__img w__tab--100 w--40">
+                    <img class="w--100" src="./images/png/hero__img.png" alt="Hero image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="companies">
+        <div class="container">
+            <h2 class="text--center">
+                Trusted by 5,000+ Companies Worldwide
+            </h2>
+            <div class="mob__column row space--evenly w--100">
+                <div class="row w__mob--100 w__tab--40 w--30 space--between mt__mob--3 mt__tab--3">
+                    <img class="w--40" src="./images/svg/google.svg" alt="Google">
+                    <img class="w--40" src="./images/svg/netfilx.svg" alt="Netflix">
+                </div>
+                <div class="row w__mob--100 w__tab--40 w--30 space--between mt__mob--3 mt__tab--3">
+                    <img class="w--40" src="./images/svg/airbnb.svg" alt="Airbnb">
+                    <img class="w--40" src="./images/svg/amazon.svg" alt="amazon">
+                </div>
+                <div class="row w__mob--100 w__tab--40 w--30 space--between mt__mob--3 mt__tab--3">
+                    <img class="w--40" src="./images/svg/facebook.svg" alt="Facebook">
+                    <img class="w--40" src="./images/svg/grab.svg" alt="Grab">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cloud">
+        <div class="container column vertical--center">
+            <h2 class="section__subheading text--center">
+                All-In-One <span class="section__subheading text--primary">Cloud Software.</span>
+            </h2>
+
+            <p class="description text--center w__tab--100 w--80">
+                Skilline is one powerful online software suite that combines all the tools needed to run a successful
+                school
+                or office.
+            </p>
+
+            <div class="card__group row space--evenly">
+                <div class="card w__mob--100 w__tab--40 w--30">
+                    <div class="floating__img">
+                        <img src="./images/svg/paper.svg" alt="Paper/Contract">
+                    </div>
+                    <div class="card__header">
+                        <h3 class="heading text--center">
+                            Online Billing, Invoicing, & Contracts
+                        </h3>
+                    </div>
+                    <div class="card__body">
+                        <p class="description text--center">
+                            Simple and secure control of your organization’s financial and legal transactions. Send
+                            customized invoices and contracts
+                        </p>
+                    </div>
+                </div>
+                <div class="card w__mob--100 w__tab--40 w--30">
+                    <div class="floating__img">
+                        <img src="./images/svg/calender.svg" alt="Paper/Contract">
+                    </div>
+                    <div class="card__header">
+                        <h3 class="heading text--center">
+                            Easy Scheduling & Attendance Tracking
+                        </h3>
+                    </div>
+                    <div class="card__body">
+                        <p class="description text--center">
+                            Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of
+                            student attendance
+                        </p>
+                    </div>
+                </div>
+                <div class="card w__mob--100 w__tab--40 w--30">
+                    <div class="floating__img">
+                        <img src="./images/svg/group.svg" alt="Paper/Contract">
+                    </div>
+                    <div class="card__header">
+                        <h3 class="heading text--center">
+                            Customer Tracking
+                        </h3>
+                    </div>
+                    <div class="card__body">
+                        <p class="description text--center">
+                            Automate and track emails to individuals or groups. Skilline’s built-in system helps
+                            organize
+                            your organization
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skilline">
+        <div class="container column vertical--center">
+            <h2 class="section__subheading text--center">
+                What is
+                <span class="section__subheading text--primary">Skilline?</span>
+            </h2>
+
+            <p class="description text--center w__tab--100 w--80">
+                Skilline is a platform that allows educators to create online classes whereby they can store the course
+                materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide
+                students with feedback all in one place.
+            </p>
+
+            <div class="img__group row space--evenly">
+                <div class="img__block w__mob--100 w__tab--70">
+                    <img src="./images/png/img1.png" alt="Instructors">
+                    <div class="img__content vertical--center">
+                        <h3 class="img__heading w--100">
+                            For instructors
+                        </h3>
+                        <a href="#" class="btn btn--white--outline w--70" title="Go to instructors page">
+                            Start a class today
+                        </a>
+                    </div>
+                </div>
+                <div class="img__block w__mob--100 w__tab--70">
+                    <img src="./images/png/img2.png" alt="Instructors">
+                    <div class="img__content vertical--center">
+                        <h3 class="img__heading w--100">
+                            FOR STUDENTS
+                        </h3>
+                        <a href="#" class="btn btn--white--outline w--70" title="Login using access code">
+                            Enter access code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab__column row skilline__content space--between vertical--center">
+                <div class="content w__tab--100 w--50 tab__text--center">
+                    <img class="w__tab--70 w--100" src="./images/svg/skilline-circle.svg" alt="Circle background"
+                        id="skilline--circle">
+                    <h3 class="content__heading">
+                        Everything you can do in a physical classroom, <span class="content__heading text--primary">you
+                            can do with
+                            Skilline</span>
+                    </h3>
+                    <p class="content__body">
+                        Skilline’s school management software helps traditional and online schools manage scheduling,
+                        attendance, payments and virtual classrooms all in one secure cloud-based system.
+                    </p>
+                    <a href="#" class="content__link" title="Learn more about Skilline">Learn more</a>
+                </div>
+                <div class="content__img w__mob--100 w__tab--70 w--40 vertical--center space--evenly">
+                    <img src="./images/png/skilline.png" alt="Skiline">
+
+                    <img class="w--20" src="./images/svg/blue-square.svg" alt="blue-square" id="skilline--blue">
+                    <img class="w--30" src="./images/svg/orange-square.svg" alt="orange-square" id="skilline--orange">
+                    <a href="#" class="btn btn--play" id="skilline--play" title="Play video"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="column vertical--center">
+            <h2 class="section__subheading text--center">
+                Our
+                <span class="section__subheading text--primary">Features</span>
+            </h2>
+
+            <p class="description text--center w__tab--100 w--80">
+                This very extraordinary feature, can make learning activities more efficient
+            </p>
+        </div>
+        <div class="container tab__column--reverse row feature__groups space--between vertical--center">
+            <div class="content__img w__mob--100 w__tab--70 w--50 vertical--center space--evenly">
+                <img src="./images/png/user-interface.png" alt="User interface">
+            </div>
+            <div class="content column w__tab--100 w--40 vertical--center tab__text--center">
+                <h3 class="content__heading w-100">
+                    A <span class="content__heading text--primary">user interface </span> designed for the classroom
+                </h3>
+                <div class="content__body">
+                    <div class="tab__column row w--100 space--between vertical--center">
+                        <div class="circle__img space--evenly vertical--center">
+                            <img src="./images/svg/grid.svg" alt="Grid">
+                        </div>
+                        <p class="w__mob--100 w--80">Teachers don’t get lost in the grid view and have a dedicated
+                            Podium space.
+                        </p>
+                    </div>
+                    <div class="tab__column row w--100 space--between vertical--center">
+                        <div class="circle__img space--evenly vertical--center">
+                            <img src="./images/svg/cascade.svg" alt="Cascade">
+                        </div>
+                        <p class="w__mob--100 w--80">TA’s and presenters can be moved to the front of the class.
+                        </p>
+                    </div>
+                    <div class="tab__column row w--100 space--between vertical--center">
+                        <div class="circle__img space--evenly vertical--center">
+                            <img src="./images/svg/user.svg" alt="User">
+                        </div>
+                        <p class="w__mob--100 w--80">Teachers can easily see all students and class data at one time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tab__column row feature__groups space--between vertical--center">
+            <div class="column content w__mob--100 w__tab--70 w--40 tab__text--center tab__vertical--center">
+                <h3 class="content__heading w-100">
+                    <span class="content__heading text--primary">Tools</span> For Teachers And Learners
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Class has a dynamic set of teaching tools built to be deployed and used during
+                        class.
+                        Teachers can handout assignments in real-time for students to complete and submit.
+                    </p>
+                </div>
+            </div>
+            <div class="content__img w__mob--100 w__tab--60 w--50 vertical--center space--evenly">
+                <img src="./images/png/learner.png" alt="Learner">
+            </div>
+        </div>
+
+        <div class="container tab__column--reverse row feature__groups space--between vertical--center">
+            <div class="content__img w__mob--100 w__tab--60 w--50 vertical--center space--evenly">
+                <img src="./images/png/assessment.png " alt="Assessment">
+            </div>
+            <div class="column content w__mob--100 w__tab--70 w--40 vertical--center tab__text--center">
+                <h3 class="content__heading w--100">Assessments,<span class="content__heading text--primary">
+                        Quizzes</span>, Tests
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Easily launch live assignments, quizzes, and tests.
+                        Student results are automatically entered in the online gradebook.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tab__column row feature__groups space--between vertical--center">
+            <div class="column content w__mob--100 w__tab--70 w--40 vertical--center tab__text--center">
+                <h3 class="content__heading w-100">
+                    <span class="content__heading text--primary">Class Management</span> Tools for Educators
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Class provides tools to help run and manage the class such as Class Roster,
+                        Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in
+                        real-time.
+                    </p>
+                </div>
+            </div>
+            <div class="content__img w__mob--100 w__tab--60 w--50 vertical--center space--evenly">
+                <img src="./images/png/management.png " alt="Class management">
+            </div>
+        </div>
+
+        <div class="container tab__column--reverse row feature__groups space--between vertical--center">
+            <div class="content__img w__mob--100 w__tab--70 w--50 vertical--center space--evenly">
+                <img src="./images/png/discussion.png" alt="User discussion">
+            </div>
+            <div class="column content w__mob--100 w__tab--70 w--40 tab__vertical--center tab__text--center">
+                <h3 class="content__heading w-100">
+                    One-on-One <span class="content__heading text--primary">Discussions</span>
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Teachers and teacher assistants can talk with students privately without leaving
+                        the Zoom environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row feature__groups space--evenly">
+            <a href="#" class="btn btn--primary--outline" title="Go to features page">See more features</a>
+        </div>
+
+        <div class="container tab__column row feature__groups w__tab--70 space--between vertical--center">
+            <div class="column content__img w__mob--100 w__tab--70 w--50 vertical--center">
+                <div class="row space--evenly w--100">
+                    <img class="w--20" src="./images/png/onedrive.png" alt="Onedrive">
+                    <img class="w--20" src="./images/png/dropbox.png" alt="Dropbox">
+                </div>
+                <div class="row space--evenly w--100">
+                    <img class="w--20" src="./images/png/google-drive.png" alt="Google drive">
+                    <img class="w--20" src="./images/png/microsoft-team.png" alt="Microsoft-team">
+                </div>
+            </div>
+            <div class="column content w__mob--100 w__tab--70 w--40 vertical--center tab__text--center">
+                <div class="content__tag vertical--center w--100">
+                    <img class="w__tab--20 w--10" src="./images/svg/line.svg" alt="Line">
+                    <span>INTEGRATIONS</span>
+                </div>
+                <h3 class="content__heading w-100">
+                    200+ educational tools and platform <span class="content__heading text--primary">integrations</span>
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Schoology has every tool your classroom needs and comes pre-integrated with more
+                        than 200+ tools, student information systems (SIS), and education platforms.
+                    </p>
+                    <div class="tab__column row feature__groups vertical--center">
+                        <a href="#" class="btn btn--primary--outline" title="Go to integrations page">See All
+                            Integrations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container tab__column--reverse row feature__groups w__tab--70 space--between vertical--center">
+            <div
+                class="column content w__mob--100 w__tab--70 w--40 vertical--center tab__text--center text--left mt__tab--3">
+                <div class="content__tag vertical--center w--100">
+                    <img class="w__tab--20 w--10" src="./images/svg/line.svg" alt="Line">
+                    <span>TESTIMONIAL</span>
+                </div>
+                <h3 class="content__heading w--100">
+                    What They Say?
+                </h3>
+                <div class="content__body">
+                    <p class="w--100">Skilline has got more than 100k positive ratings from our users around the world.
+                    </p>
+                    <p class="w--100">Some of the students and teachers were greatly helped by the Skilline.
+                    </p>
+                    <p class="w--100">Are you too? Please give your assessment
+                    </p>
+                    <div class="tab__column row feature__groups vertical--center">
+                        <a href="#" class="btn btn--primary--outline space--between testomonial__btn w--100"
+                            title="Go to review page">
+                            Write your assessment
+                            <img src="./images/svg/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testomonial w__mob--100 w__tab--70 w--40 tab__column vertical--center">
+                <img src="./images/png/testomonial.png" alt="Testomonial" class="w--80">
+                <a href="#" class="btn btn--next" id="arrow__next" title="Next review"></a>
+                <div class="testomonial__content w--100 mt__tab--1">
+                    <div class="description w--100">
+                        "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it.
+                        It really saves me time and effort. Skilline is exactly what our business has been lacking."
+                    </div>
+                    <div class="row space--between vertical--center">
+                        <h3 class="author">Gloria Rose</h3>
+                        <div class="column review">
+                            <img class="stars w--50" src="./images/png/stars.png" alt="stars">
+                            <p>12 reviews at Yelp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container column vertical--center">
+            <h2 class="section__subheading text--center">
+                Lastest News and Resources
+            </h2>
+
+            <p class="description text--center w__tab--100 w--80">
+                See the developments that have occurred to Skillines in the world
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="news__group row">
+                <div class="column news__main w__tab--100 w--40 tab__vertical--center space--evenly text--center">
+                    <img src="./images/png/news-main.png"
+                        alt="Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution"
+                        class="news__img w__mob--100 w__tab--60 w--100">
+
+                    <a href="#" class="btn tag space--evenly" title="Go to news page">News</a>
+
+                    <div class="column w__mob--100 tab__text--center text--left">
+                        <a href="#" class="news__heading" title="Go to news page">Class adds $30 million to its balance sheet for a Zoom-friendly edtech
+                            solution</a>
+
+                        <p class="news__description">Class, launched less than a year ago by Blackboard co-founder
+                            Michael
+                            Chasen, integrates exclusively...</p>
+
+                        <a href="#" class="content__link" title="Go to news page">Read more</a>
+                    </div>
+                </div>
+                <div class="column w__tab--100 w--60">
+                    <div class="news__others w--100 mob__column tab__row row">
+                        <div class="w__mob--100 w--40">
+                            <img src="./images/png/news1.png"
+                                alt="Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution"
+                                class="news__img w--100">
+
+                            <a href="#" class="btn w__mob--50 w--60 tag space--evenly" title="Go to article page">Press release</a>
+                        </div>
+                        <div class="w__mob--100 w--60">
+                            <a href="#" class="news__heading" title="Go to article page">Class Technologies Inc. Closes $30 Million Series A Financing to
+                                Meet High Demand</a>
+
+                            <p class="news__description">Class Technologies Inc., the company that created Class,...</p>
+                        </div>
+                    </div>
+                    <div class="news__others w--100 mob__column tab__row row">
+                        <div class="w__mob--100 w--40">
+                            <img src="./images/png/news2.png"
+                                alt="Zoom’s earliest investors are betting millions on a better Zoom for schools"
+                                class="news__img w--100">
+
+                            <a href="#" class="btn w__mob--50 w--40 tag space--evenly" title="Go to news page">News</a>
+                        </div>
+                        <div class="w__mob--100 w--60">
+                            <a href="#" class="news__heading" title="Go to news page">Zoom’s earliest investors are betting millions on a better Zoom
+                                for schools</a>
+
+                            <p class="news__description">Zoom was never created to be a consumer product. Nonetheless,
+                                the...</p>
+                        </div>
+                    </div>
+                    <div class="news__others w--100 mob__column tab__row row">
+                        <div class="w__mob--100 w--40">
+                            <img src="./images/png/news3.png"
+                                alt="Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms"
+                                class="news__img w--100">
+
+                            <a href="#" class="btn w__mob--50 w--40 tag space--evenly" title="Go to news page">News</a>
+                        </div>
+                        <div class="w__mob--100 w--60">
+                            <a href="#" class="news__heading" title="Go to news page">Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom
+                                Classrooms</a>
+
+                            <p class="news__description">This year, investors have reaped big financial returns from
+                                betting on Zoom...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer class="container column vertical--center">
+            <div class="w__mob--100 w__tab--70 w--50 mob__column row space--evenly vertical--center">
+                <a href="#" title="Logo of Skilline">
+                    <img src="./images/png/logo-footer.png" alt="Logo">
+                </a>
+                <h2 class="w__mob--100 w--40 footer__title mob__text--center text--left">
+                    Virtual Class for Zoom
+                </h2>
+            </div>
+
+            <div class="w--50 text--center ">
+                Subscribe to get our Newsletter
+            </div>
+            <form action="/" class="w__mob--100 w__tab--70 w--50 tab__column row space--between vertical--center">
+                <input class="footer__form__input w--60" type="text" placeholder="Your Email">
+                <input class="btn btn--blue w--30 space--evenly" type="submit" value="Subscribe" title="Subscribe to Skilline">
+            </form>
+
+            <div class="tab__column row footer__links space--evenly w__mob--100  w--60 vertical--center">
+                <a href="#" class="footer__link" title="Go to career page">Careers</a>
+                <a href="#" class="footer__link" title="Go to privacy page">Privacy Policy</a>
+                <a href="#" class="footer__link" title="Go to terms and conditions page">Terms & Conditions</a>
+            </div>
+
+            <div class="footer__copyright">
+                © 2021 Class Technologies Inc.
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

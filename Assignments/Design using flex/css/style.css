@@ -1,0 +1,113 @@
+section:not(:first-child) {
+    margin-top: 9.375rem;
+}
+
+.section__subheading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 180%;
+    color: #2F327D;
+    margin-bottom: 1.25rem;
+}
+
+.section .subheading {
+    font-weight: 700;
+    font-size: 31.1.5625rem;
+    line-height: 2.9375rem;
+    text-transform: uppercase;
+    color: #232233;
+    margin: 0 auto;
+    margin-top: 7.5rem;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 180%;
+    color: #696984;
+}
+
+a.links {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #252641;
+    text-decoration: none;
+}
+
+a.links:hover {
+    color: #F48C06;
+    text-decoration: underline;
+}
+
+.circle__img {
+    border-radius: 50%;
+    width: 3.6875rem;
+    height: 4rem;
+    padding: 0;
+    background: #FBFBFB;
+    box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+
+.content__heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 160%;
+    color: #2F327D;
+}
+
+.content__body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.content__body>div {
+    margin-top: 2rem;
+}
+
+.content__link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 180%;
+    text-decoration-line: underline;
+    color: #696984;
+}
+
+.feature__groups {
+    margin-top: 6.25rem;
+}
+
+.content__img>div {
+    margin: 2rem 0;
+}
+
+.content__tag {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    letter-spacing: 0.2em;
+    color: #525596;
+    text-transform: uppercase;
+    margin-bottom: 1.875rem;
+}
+
+.content__tag>img{
+    margin-right: 1rem;
+}

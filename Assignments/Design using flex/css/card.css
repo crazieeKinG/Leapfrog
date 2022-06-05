@@ -1,0 +1,35 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.1);
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.card
+
+.card__header {
+    margin: 0 3.3125rem;
+    margin-top: 5.5rem;
+}
+
+.card__header .heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.8125rem;
+    color: #2F327D;
+}
+
+.card__body {
+    margin: 1.5rem;
+}
+
+.card__body .description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: #696984;
+}

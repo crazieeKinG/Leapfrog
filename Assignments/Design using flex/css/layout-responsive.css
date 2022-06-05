@@ -1,0 +1,170 @@
+@media screen and (max-width:1200px) {
+    *{
+        font-size: 14px;
+    }
+
+    .w__tab--10 {
+        width: 10% !important;
+    }
+    
+    .w__tab--20 {
+        width: 20% !important;
+    }
+    
+    .w__tab--30 {
+        width: 30% !important;
+    }
+    
+    .w__tab--40 {
+        width: 40% !important;
+    }
+    
+    .w__tab--50 {
+        width: 50% !important;
+    }
+    
+    .w__tab--60 {
+        width: 60% !important;
+    }
+    
+    .w__tab--70 {
+        width: 70% !important;
+    }
+    
+    .w__tab--80 {
+        width: 80% !important;
+    }
+    
+    .w__tab--90 {
+        width: 90% !important;
+    }
+    
+    .w__tab--100 {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1296px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tab__row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .tab__column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tab__column--reverse{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    
+    .mt__tab--1{
+        margin-top: 1rem !important;
+    }
+    
+    .mt__tab--3{
+        margin-top: 3rem !important;
+    }
+
+    .tab__vertical--center{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    *{
+        font-size: 12px;
+    }
+
+    .w__mob--10 {
+        width: 10% !important;
+    }
+    
+    .w__mob--20 {
+        width: 20% !important;
+    }
+    
+    .w__mob--30 {
+        width: 30% !important;
+    }
+    
+    .w__mob--40 {
+        width: 40% !important;
+    }
+    
+    .w__mob--50 {
+        width: 50% !important;
+    }
+    
+    .w__mob--60 {
+        width: 60% !important;
+    }
+    
+    .w__mob--70 {
+        width: 70% !important;
+    }
+    
+    .w__mob--80 {
+        width: 80% !important;
+    }
+    
+    .w__mob--90 {
+        width: 90% !important;
+    }
+    
+    .w__mob--100 {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1296px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mob__row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .mob__column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mob__column--reverse{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .mt__mob--1{
+        margin-top: 1rem !important;
+    }
+    
+    .mt__mob--3{
+        margin-top: 3rem !important;
+    }
+}
